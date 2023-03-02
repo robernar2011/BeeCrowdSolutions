@@ -20,7 +20,6 @@ for (var i = 0; i < notas.length; i++){
 console.log("MOEDAS:");
 
 for (var j = 0; j < moedas.length; j++){
-    // console.log(moedas[j]);
     qtdMoedas = parseInt(valorDoSaque / moedas[j])
     console.log(`${qtdMoedas} moeda(s) de R$ ${moedas[j].toFixed(2)}`);
     valorDoSaque = (valorDoSaque % moedas[j]+0.00001)
